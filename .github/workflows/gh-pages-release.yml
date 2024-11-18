@@ -19,12 +19,14 @@ jobs:
           node-version: v18.18.0
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install
 
       - name: Build for production
-        run: yarn build
-        env:
-          SITE_URL: "https://docs.${{ matrix.domain }}"
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build
 
       - name: Deploy Gh-Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
