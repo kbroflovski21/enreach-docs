@@ -45,13 +45,13 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'introduction/what-is-open-edge',
-          label: 'What Is Open Edge'
+          id: 'introduction/why-edge-cloud',
+          label: 'Why Edge Cloud'
         },
         {
           type: 'doc',
-          id: 'introduction/why-open-edge',
-          label: 'Why Open Edge'
+          id: 'introduction/open-layered-fabric',
+          label: 'Open-layered Fabric'
         },
       ]
     },

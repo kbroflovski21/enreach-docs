@@ -1,12 +1,19 @@
 ---
-id: what-is-open-edge
+id: open-layered-fabric
 title: ''
 hide_table_of_contents: false
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# What Is Open Edge
+# Open-layered Fabric
 
-EnReach’s **Open Edge** ecosystem introduces a paradigm shift by creating a **permissionless, distributed edge cloud** through its **Open-layered fabric**.
+EnReach introduces a paradigm shift by creating a **permissionless, distributed edge cloud** through its **open-layered fabric**. &#x20;
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/img/introduction/openlayer_fabric.png')} style={{maxWidth: '800'}} />
+</div>
+
+In abstract terms, EnReach functions as an open-layered fabric that connects and coordinates the underlying Resource Layer and the Application Layer above. Its core role is to organize distributed edge resources and align them with demand from applications. At the same time, EnReach provides a hosting platform for edge applications, enabling them to access resilient edge resources at minimal cost.
 
 ### The Open Protocol
 
@@ -33,4 +40,3 @@ EnReach provides an open platform tailored for these types of applications.
 * This platform is scalable, resilient, and equipped with compute capabilities, ultimately delivering a comprehensive PaaS solution.
 * In the initial stages, EnReach’s economic model will subsidize resources within the network, as applications may not yet generate sufficient revenue.
 * This subsidy period will not be prolonged. EnReach will soon establish a self-sustaining cycle, enabling the resource layer to receive funding from the application layer.
-

@@ -12,7 +12,7 @@ import rehypeKatex from 'rehype-katex';
 const config = {
   title: 'EnReach Network Docs',
   tagline: 'EnReach: The Genesis of Open Edge',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: process.env.SITE_URL || 'https://docs.enreach.network',
